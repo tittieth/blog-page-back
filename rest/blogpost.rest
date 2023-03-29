@@ -1,0 +1,22 @@
+GET http://localhost:3000/blogposts
+
+###
+
+POST http://localhost:3000/blogposts/add
+Content-Type: application/json
+
+{
+    "title": "Weekend i over!",
+    "content": "Time for school!",
+    "author": ["6412ec55026d9c28f2163960"]
+}
+
+###
+
+PUT http://localhost:3000/blogposts
+content-type: application/json
+
+
+###
+
+DELETE http://localhost:3000/blogposts/6412d49673afcae723a4441b
